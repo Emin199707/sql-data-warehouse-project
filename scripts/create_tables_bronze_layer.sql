@@ -1,3 +1,17 @@
+/*
+==============================================================
+Create ERP and CRM TABLES
+==============================================================
+
+Script Purpose:
+    This script creates tables in 'DataWarehouse' Database or Drop them and recreate after checking if they already exists.
+WARNING:
+    Running this script will drop the highlighted tables in  database if they exists.
+    All data in the tables will be permanently deleted. Proceed with caution
+    and ensure you have proper backups before running this script.
+
+*/
+
 USE DataWarehouse;
 Go
 
